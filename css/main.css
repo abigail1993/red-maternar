@@ -1,0 +1,197 @@
+/*paleta de colores
+yellow: #FDFDB3;
+purple: #BCB9DB;
+pink: #EEC2DD;
+blue: #C0D9DE;
+aqua: #CFE5D8;
+green: #a4d5a6;
+pink(2): #c83f71;
+*/
+
+.margin { /*da estilo a la barra superior*/
+  background-color: #C3FDFE;
+  margin: 0px;
+  padding: 5vh;
+}
+
+.green { /*da color al fondo del jumbotron*/
+  background-color: #AAF0B2;
+  height: 90vh;
+}
+
+.jbt {/*ajusta la altura del jumbotron*/
+margin-top: 10vh;
+margin-left: -2vh;
+height: 60vh;
+}
+
+.pink { /*da color al fondo general*/
+  background: #EEC2DD;
+  height: 90vh;
+  margin: 0;
+  padding: 0;
+}
+.image-fondo{
+  background-image: url(../assets/images/fondo.jpg);
+  height: 90vh;
+  margin: 0;
+  padding: 0;
+}
+
+footer { /*da estilo al footer*/
+  color: purple;
+  height: 4vh;
+  text-align: center;
+}
+
+.red {
+  background: red;
+}
+
+.gris {
+  background: gray;
+}
+
+.logo { /*da estilo al logo de la vista inicial*/
+  width: 30vh;
+  height: auto;
+  max-width: 100%;
+}
+
+.logo1 { /* da dimensiones al contenedor del logo*/
+  width: 30vh;
+  height: auto;
+}
+
+.registrate { /*posiciona y da color a REGISTRATE*/
+  font-size: 5vh;
+  color: #c83f71;
+}
+
+.inline{ /*posiciona el logo*/
+  padding: 0;
+  height: auto;
+}
+
+.inline1 { /*posiciona REGISTRATE*/
+  margin-top: 3vh;
+}
+
+.color { /*da color a las letras del botón iniciar sesión*/
+  color: #c83f71;
+}
+
+.button1 { /*Da estilo al boton de iniciar sesión*/
+  text-decoration: none;
+  background-color: #c83f71;
+  border: none;
+  border-radius: 10px;
+  font-family: "Gill Sans", sans-serif;
+  color: white;
+  width: auto;
+  padding: 18px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.button2{
+  text-decoration: none;
+  background-color: #c83f71;
+  border: none;
+  border-radius: 10px;
+  font-family: "Gill Sans", sans-serif;
+  color: white;
+  width: auto;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn-w {
+  width: 200px;
+}
+
+button:hover {
+  background-color: #BCB9DB;
+}
+
+.modalback {
+  background-color: #BCB9DB;
+}
+
+.modalback1 {
+  background-color: #EEC2DD;
+}
+
+.right {
+  margin-left: 20vh;
+}
+
+/* estos son estilos dela vista perfil*/
+.img-usuario {
+  width: 30vh;
+  margin: 0 auto;
+}
+
+#preview {
+  width: 171px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  position: relative;
+  text-align: center;
+}
+
+#preview a {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+  display: none;
+}
+
+#file {
+  margin-bottom: 15vh;
+}   /* estp es del boton gris*/
+
+#file-save {
+  margin-bottom: -10vh;
+}
+
+/*al habilitar esto aparece el boton
+input[type=file]{
+  position: absolute;
+  visibility: hidden;
+  width: 0;
+  z-index: -9999;
+}
+*/
+
+#album {
+  margin-top: 50px;
+
+}
+/*es la parte de contactos*/
+#preview img {
+  margin: 5vh;
+  width: 200vh;
+  height: 30vh;
+}
+
+body,
+.pink2 {
+  background: pink;
+}
+
+#center {
+  margin-left: 137px;
+}
+
+#name-user {
+  text-align: center;
+  font-size: 900;
+}
+
+#album .photo {
+  margin-top: -60vh;
+}
